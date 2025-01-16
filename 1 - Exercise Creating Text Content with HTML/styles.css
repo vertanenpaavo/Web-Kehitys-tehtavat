@@ -1,0 +1,30 @@
+.container {
+    width: 800px;
+    margin: 100px;
+}
+
+body {
+    background-color: #ECDFCC;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    color: #181C14;
+    font-size: 40px;
+}
+h2 {
+    color: #181C14;
+    font-size: 20px;
+}
+p {
+    color: #3C3D37;
+}
+
+a, a:hover, a:active {
+    text-decoration: underline;
+    color: #3C3D37;
+}
+a:visited {
+    text-decoration: underline;
+    color: #8d8f83;
+}
+
