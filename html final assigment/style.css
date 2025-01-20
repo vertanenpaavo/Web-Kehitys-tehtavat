@@ -1,0 +1,36 @@
+body {
+    background-image: url(background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    width: 85%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr;
+}
+.header {
+    background-image: linear-gradient(to bottom, #cbcfd6, #eceef1, #eceef1, #eceef1, #eceef1, #eceef1, #cbcfd6);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.article {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    align-items: center;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
