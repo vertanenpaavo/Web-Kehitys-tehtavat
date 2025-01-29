@@ -19,8 +19,8 @@ p {
     color: #FAFAFA;
 }
 .row {
-    margin-left: -5px;
-    margin-right: -5px; 
+    margin-left: 0px;
+    margin-right: 0px; 
 }
 .hero-image {
     background-image: url(img/sushi2.png);
